@@ -57,3 +57,22 @@ def upload_to_aws(file):
 # set up streamlit app
 st.markdown("<h1 style='color: #746E9E;'>FitFinder</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='color: #746E9E;'>Find the workout you need</h3>", unsafe_allow_html=True)
+question = st.text_input('Enter your Request')   #user can specify their request
+ask_btn = st.button('Ask')
+if ask_btn:
+    st.write('You asked:', question)
+    system_prompt = "You are a meeting intelligence tool which helps generate links which match the question. You will help generate precise links based on the query"
+    new_response = openai.ChatCompletion.create(model="gpt-3.5-turbo",
+                                                    messages=[
+                                                        {"role": "system", "content": system_prompt},
+                                                        {"role": "user", "content": question} #finally provide the new question user just asked on streamlit
+                                                        ],
+                                                    temperature=0.7,
+                                                    max_tokens=200,
+                                                    top_p=1,
+                                                    frequency_penalty=0,
+                                                    presence_penalty=0)
+
+    new_response = new_response.choices[0].message.content.strip()  #store model's response
+    st.write(new_response)  #display the response on streamlit
+
