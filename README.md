@@ -8,7 +8,7 @@
 > ✅ Active status <br>
 > [🚀 Application link](http://34.73.90.193:8082) <br>
 > [⏱ Airflow](http://34.73.90.193:8081) <br>
-> [🎬 Codelab Slides](https://codelabs-preview.appspot.com/?file_id=10g_VR_sg49wRqfq8tMtr2pbBg80EHSgA2Rqd8R1MaiI#0) <br>
+> [🎬 Codelab Slides](https://codelabs-preview.appspot.com/?file_id=19JXjVTJK7lAo0XWgxmkERleQjft9QcoUmDpSHXRKSf0#0) <br>
 > 🐳 Docker Hub Images: [Airflow](https://hub.docker.com/repository/docker/mashruwalav/echonotes_airflow_v2/general), [Streamlit](https://hub.docker.com/repository/docker/mashruwalav/echonotes_streamlitapp_v2/general) <br>
 > [📽️ Application Demo/Presentation](https://drive.google.com/file/d/1DizswvKwqa0w7Yo3WJhjFciP1ZP6VZIU/view?usp=sharing)
 
@@ -68,3 +68,9 @@ Python library [Streamlit](https://streamlit.iohttps://streamlit.io) has been im
 ## Airflow
 
 ## How to run the application locally
+
+-----
+> WE ATTEST THAT WE HAVEN’T USED ANY OTHER STUDENTS’ WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK.
+> 
+> Vraj: 25%, Poojitha: 25%, Merwin: 25%, Anushka: 25%
+-----
