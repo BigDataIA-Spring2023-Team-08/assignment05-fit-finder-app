@@ -26,7 +26,7 @@
 
 This app is developed as a part of a hackathon. Leveraging OpenAI's various APIs and any other API, we were asked to build something new and useful. FitFinder is a refined fitness helper which provides you with relevant videos based on things/exercises you are looking for. 
 
-How is the different from YouTube search? Well, when you search for a single type of exercise on YouTube, you probably just get several videos which only contain that 1 exercise. Need more exercies? Sorry, you will have to do a new YouTube search. In comes FitFinder which can provide you with vidoes which have multiple exercies INCLUDING the exercise you initially searched for. This way you get to see and follow numerous exercies in a single video which is better than you searching for videos of each exercies one after another. 
+How is this different from YouTube search? Well, when you search for a single type of exercise on YouTube, you probably just get several videos which only contain that 1 exercise. Need more exercise? Sorry, you will have to do a new YouTube search. In comes FitFinder which can provide you with videos which have multiple exercises INCLUDING the exercise you initially searched for. This way you get to see and follow numerous exercises in a single video which is better than searching for videos of each exercise one after another
 
 To build this application we use generative AI APIs such as **Whisper** and **GPT 3.5** APIs as well as **YouTube Data API**, integrated with [Streamlit](https://streamlit.iohttps://streamlit.io) for its user interface to illustrate application workflow.
 
