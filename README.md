@@ -39,7 +39,7 @@ The task involves building a decoupled architecture for the fitness application:
 
 ## Architecture Diagram
 
-<img width="731" alt="MicrosoftTeams-image" src="https://user-images.githubusercontent.com/46862684/230648007-7c65fef1-43a6-4175-9e04-37f47f725fd5.png">
+![fit_finder_app_architecture](https://user-images.githubusercontent.com/46862684/230658753-b24a6c84-c2a0-436b-b5d8-167ff0115513.png)
 
 ## Project Components
 
