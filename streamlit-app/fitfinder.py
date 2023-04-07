@@ -18,12 +18,6 @@ import time
 #load local environment
 load_env()
 
-#set up Youtube API key and credentials
-SERVICE_ACCOUNT_JSON = os.environ.get('SERVICE_ACCOUNT_JSON')   #path to credentials json file
-api_key = os.environ.get('YOUTUBE_KEY')
-scopes = ['https://www.googleapis.com/auth/youtube.force-ssl']
-credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_JSON, scopes=scopes)
-
 #set up OpenAI API key
 openai.api_key = os.environ.get('OPENAI_KEY')
 
@@ -31,9 +25,6 @@ openai.api_key = os.environ.get('OPENAI_KEY')
 aws_access_key = os.environ.get('AWS_KEY')
 aws_secret_key = os.environ.get('AWS_SECRET')
 user_bucket = os.environ.get('USER_BUCKET')
-
-#set up YouTube Data API client
-youtube = build('youtube', 'v3', developerKey=api_key, credentials=credentials)
 
 #authenticate S3 resource with your user credentials that are stored in your .env config file
 s3resource = boto3.resource('s3',
