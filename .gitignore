@@ -131,3 +131,4 @@ dmypy.json
 # User defined
 .env
 bdia-hackathon-3c59b20ab4da.json
+.DS_Store
