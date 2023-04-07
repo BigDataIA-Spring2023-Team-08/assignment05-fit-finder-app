@@ -19,7 +19,6 @@
   - [Project Components 💽](#project-components)
     - [APIs](#apis)
     - [Streamlit](#streamlit)
-    - [Airflow](#airflow)
   - [How to run the application 💻](#how-to-run-the-application-locally)
 ----- 
 
@@ -66,13 +65,9 @@ Python library [Streamlit](https://streamlit.iohttps://streamlit.io) has been im
 
 >  Request for best workout plans based on user goals and needs 
 
->  List 5 YouTube videos related to fitness based on user requests
+> Use these inputs to optimize searches
 
->  Generate transcripts from fetched YouTube results for best content and context based matches
-
->  Ask questions related to transcriptions using the query engine to optimize searches
-
-### Airflow
+>  List videos related to physiotherapy based on user requests
 
 ## How to run the application locally
 
