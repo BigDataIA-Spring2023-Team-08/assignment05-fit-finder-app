@@ -7,7 +7,7 @@
 
 > ✅ Active status <br>
 > 🚀 Application is locally hosted <br>
-> [🎬 Codelab Slides](https://codelabs-preview.appspot.com/?file_id=19JXjVTJK7lAo0XWgxmkERleQjft9QcoUmDpSHXRKSf0#0) <br>
+> [🎬 Codelab Slides](https://codelabs-preview.appspot.com/?file_id=19JXjVTJK7lAo0XWgxmkERleQjft9QcoUmDpSHXRKSf0/#0) <br>
 > [📽️ Application Demo/Presentation](https://drive.google.com/file/d/1DizswvKwqa0w7Yo3WJhjFciP1ZP6VZIU/view?usp=sharing)
 
 ----- 
