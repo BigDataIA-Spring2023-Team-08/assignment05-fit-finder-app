@@ -52,6 +52,14 @@ The task involves building a decoupled architecture for the fitness application:
 ## Repository Components
 
 ```
+  ├── application-use-test-cases            # images for use cases
+  │   ├── ff-balance-2.png
+  │   ├── ff-balance.png
+  │   ├── ff-motion.png
+  │   ├── ff-strengthening.png
+  │   ├── yt-balance.png
+  │   ├── yt-motion.png
+  │   └── yt-strengthening.png
   ├── architecture-diagram
   │   ├── arch-diagram.py                   # architectural diagram python code    
   │   └── fit_finder_app_architecture.png   # architectural diagram png
@@ -93,7 +101,7 @@ Python library [Streamlit](https://streamlit.iohttps://streamlit.io) has been im
 
 User wants to work on **strengthening** in which they wish to focus on the **core**. User also wants to have the exercise **transverse abdominus** included.
 
-![ff-strength](https://user-images.githubusercontent.com/93955935/230673777-2047cd05-4dab-47f5-9012-e053973c254b.png)
+![ff-strength](https://github.com/BigDataIA-Spring2023-Team-08/assignment05-fit-finder-app/blob/main/application-use-test-cases/ff-strengthening.png)
 
 <i>Notice how FitFinder provides a video which has **strengthening** physiotherapy exercise for the **core** but also contains the **transverse abdominus** exercise. This way a user can focus on their initial primary goal of training for strengthening core but also involve the transverse abdominus exercise rather than only show transverse abdominus exercise videos (which you get on a normal YouTube search as shown in next pic).</i>
 
@@ -101,13 +109,13 @@ User wants to work on **strengthening** in which they wish to focus on the **cor
 
 <i>As you notice, YouTube results will only focus on that one exercise, in this case **transverse abdominus** and provide multiple videos plainly relating to this one exercise despite entering **physiotherapy strengthening transverse abdominus** as the search query</i>
 
-![yt-strength](https://user-images.githubusercontent.com/93955935/230673777-2047cd05-4dab-47f5-9012-e053973c254b.png)
+![yt-strength](https://github.com/BigDataIA-Spring2023-Team-08/assignment05-fit-finder-app/blob/main/application-use-test-cases/yt-strengthening.png)
 
 #### USE CASE 2
 
 User wants to work on **motion** in which they wish to focus on the **legs**. User also wants to have the exercise **knee flexion** included.
 
-![ff-motion](https://user-images.githubusercontent.com/93955935/230673777-2047cd05-4dab-47f5-9012-e053973c254b.png)
+![ff-motion](https://github.com/BigDataIA-Spring2023-Team-08/assignment05-fit-finder-app/blob/main/application-use-test-cases/ff-motion.png)
 
 <i>Notice how FitFinder provides a video which has **motion** physiotherapy exercise for **legs** but also contains the **knee flexion** exercise. This way a user can focus on their initial primary goal of training for motion of legs but also involve the knee flexion exercise rather than only show knee flexion exercise videos (which you get on a normal YouTube search as shown in next pic).</i>
 
@@ -115,13 +123,13 @@ User wants to work on **motion** in which they wish to focus on the **legs**. Us
 
 <i>As you notice, YouTube results will only focus on that one exercise, in this case **knee flexion** and provide multiple videos plainly relating to this one exercise **despite entering physiotherapy motion knee flexion** as the search query</i>
 
-![yt-motion](https://user-images.githubusercontent.com/93955935/230673777-2047cd05-4dab-47f5-9012-e053973c254b.png)
+![yt-motion](https://github.com/BigDataIA-Spring2023-Team-08/assignment05-fit-finder-app/blob/main/application-use-test-cases/yt-motion.png)
 
 #### USE CASE 3
 
 User wants to work on **balancing** in which they wish to focus on the **legs**. User also wants to have the exercise **single leg balance** included.
 
-![ff-balance](https://user-images.githubusercontent.com/93955935/230673777-2047cd05-4dab-47f5-9012-e053973c254b.png)
+![ff-balance](https://github.com/BigDataIA-Spring2023-Team-08/assignment05-fit-finder-app/blob/main/application-use-test-cases/ff-balance.png)
 
 <i>Notice how FitFinder provides a video which has **balancing** physiotherapy exercise for the **legs** but also contains the **single leg balance** exercise. This way a user can focus on their initial primary goal of training for balancing legs but also involve the single leg balance exercise rather than only show single leg balance exercise videos (which you get on a normal YouTube search as shown in next pic).
 </i>
@@ -130,7 +138,7 @@ User wants to work on **balancing** in which they wish to focus on the **legs**.
 
 <i>As you notice, YouTube results will only focus on that one exercise, in this case **single leg balance** and provide multiple videos plainly relating to this one exercise **despite entering physiotherapy single leg balance** as the search query</i>
 
-![yt-balance](https://user-images.githubusercontent.com/93955935/230673777-2047cd05-4dab-47f5-9012-e053973c254b.png)
+![yt-balance](https://github.com/BigDataIA-Spring2023-Team-08/assignment05-fit-finder-app/blob/main/application-use-test-cases/yt-balance.png)
 
 ## How to run the application locally
 
