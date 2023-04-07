@@ -13,16 +13,18 @@
 ----- 
 
 ## Index
-  - [Objective 🎯](#objective)
+  - [Motivation 🎯](#motivation)
   - [Technical Abstract 📝](#technical-abstract)
   - [Architecture Diagram 🏗](#architecture-diagram)
+  - [Repository Components 🗃️](#repository-components)
   - [Project Components 💽](#project-components)
     - [APIs](#apis)
     - [Streamlit](#streamlit)
+  - [Application Screenshots 📸](#application-screenshots)
   - [How to run the application 💻](#how-to-run-the-application-locally)
 ----- 
 
-## Objective
+## Motivation
 
 This app is developed as a part of a hackathon. Leveraging OpenAI's various APIs and any other API, we were asked to build something new and useful. FitFinder is a refined fitness helper which provides you with relevant videos based on things/exercises you are looking for. 
 
@@ -47,6 +49,8 @@ The task involves building a decoupled architecture for the fitness application:
 
 ![fit_finder_app_architecture](https://user-images.githubusercontent.com/46862684/230658753-b24a6c84-c2a0-436b-b5d8-167ff0115513.png)
 
+## Repository Components
+
 ## Project Components
 
 ### APIs
@@ -68,6 +72,8 @@ Python library [Streamlit](https://streamlit.iohttps://streamlit.io) has been im
 > Use these inputs to optimize searches
 
 >  List videos related to physiotherapy based on user requests
+
+## Application Screenshots
 
 ## How to run the application locally
 
