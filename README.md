@@ -20,7 +20,7 @@
   - [Project Components 💽](#project-components)
     - [APIs](#apis)
     - [Streamlit](#streamlit)
-  - [Application Screenshots 📸](#application-screenshots)
+  - [Application Use Cases 📸](#application-use-cases)
   - [How to run the application 💻](#how-to-run-the-application-locally)
 ----- 
 
@@ -87,7 +87,50 @@ Python library [Streamlit](https://streamlit.iohttps://streamlit.io) has been im
 
 >  List videos related to physiotherapy based on user requests
 
-## Application Screenshots
+## Application Use Cases
+
+#### USE CASE 1
+
+User wants to work on **strengthening** in which they wish to focus on the **core**. User also wants to have the exercise **transverse abdominus** included.
+
+![ff-strength](https://user-images.githubusercontent.com/93955935/230673777-2047cd05-4dab-47f5-9012-e053973c254b.png)
+
+<i>Notice how FitFinder provides a video which has **strengthening** physiotherapy exercise for the **core** but also contains the **transverse abdominus** exercise. This way a user can focus on their initial primary goal of training for strengthening core but also involve the transverse abdominus exercise rather than only show transverse abdominus exercise videos (which you get on a normal YouTube search as shown in next pic).</i>
+
+#### TESTING RESULTS ON YOUTUBE:
+
+<i>As you notice, YouTube results will only focus on that one exercise, in this case **transverse abdominus** and provide multiple videos plainly relating to this one exercise despite entering **physiotherapy strengthening transverse abdominus** as the search query</i>
+
+![yt-strength](https://user-images.githubusercontent.com/93955935/230673777-2047cd05-4dab-47f5-9012-e053973c254b.png)
+
+#### USE CASE 2
+
+User wants to work on **motion** in which they wish to focus on the **legs**. User also wants to have the exercise **knee flexion** included.
+
+![ff-motion](https://user-images.githubusercontent.com/93955935/230673777-2047cd05-4dab-47f5-9012-e053973c254b.png)
+
+<i>Notice how FitFinder provides a video which has **motion** physiotherapy exercise for **legs** but also contains the **knee flexion** exercise. This way a user can focus on their initial primary goal of training for motion of legs but also involve the knee flexion exercise rather than only show knee flexion exercise videos (which you get on a normal YouTube search as shown in next pic).</i>
+
+#### TESTING RESULTS ON YOUTUBE:
+
+<i>As you notice, YouTube results will only focus on that one exercise, in this case **knee flexion** and provide multiple videos plainly relating to this one exercise **despite entering physiotherapy motion knee flexion** as the search query</i>
+
+![yt-motion](https://user-images.githubusercontent.com/93955935/230673777-2047cd05-4dab-47f5-9012-e053973c254b.png)
+
+#### USE CASE 3
+
+User wants to work on **balancing** in which they wish to focus on the **legs**. User also wants to have the exercise **single leg balance** included.
+
+![ff-balance](https://user-images.githubusercontent.com/93955935/230673777-2047cd05-4dab-47f5-9012-e053973c254b.png)
+
+<i>Notice how FitFinder provides a video which has **balancing** physiotherapy exercise for the **legs** but also contains the **single leg balance** exercise. This way a user can focus on their initial primary goal of training for balancing legs but also involve the single leg balance exercise rather than only show single leg balance exercise videos (which you get on a normal YouTube search as shown in next pic).
+</i>
+
+#### TESTING RESULTS ON YOUTUBE:
+
+<i>As you notice, YouTube results will only focus on that one exercise, in this case **single leg balance** and provide multiple videos plainly relating to this one exercise **despite entering physiotherapy single leg balance** as the search query</i>
+
+![yt-balance](https://user-images.githubusercontent.com/93955935/230673777-2047cd05-4dab-47f5-9012-e053973c254b.png)
 
 ## How to run the application locally
 
