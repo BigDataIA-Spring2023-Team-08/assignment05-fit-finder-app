@@ -167,6 +167,7 @@ User wants to work on **balancing** in which they wish to focus on the **legs**.
   - First, create a virtual environment and install all requirements from the [`requirements.txt`](https://github.com/BigDataIA-Spring2023-Team-08/assignment05-fit-finder-app/blob/main/streamlit-app/requirements.txt) file present
   - Add all necessary credentials into a `.env` file:
   ```
+      SERVICE_ACCOUNT_JSON=yourserviceaccount.json
       OPENAI_KEY=XXXXX
       AWS_KEY=XXXXX
       AWS_SECRET=XXXXX
